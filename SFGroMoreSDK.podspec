@@ -1,12 +1,12 @@
 
 
 Pod::Spec.new do |s|
-    s.name             = 'GroMoreSDK'
-    s.version          = '3.7.0.6'
-    s.summary          = 'GroMoreSDK'
+    s.name             = 'SFGroMoreSDK'
+    s.version          = '3.8.0.2'
+    s.summary          = 'SFGroMoreSDK'
 
     s.description      = <<-DESC
-    'GroMoreSDK'
+    'SFGroMoreSDK'
                        DESC
 
     s.homepage         = 'https://github.com/xiaofu666/GroMoreSDK'
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64' }
 
-    s.dependency 'Ads-CN', '~>4.8.0.9'
+    s.dependency 'Ads-CN', '~>4.9.0.7'
   
 end
