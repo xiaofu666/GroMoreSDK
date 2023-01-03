@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SFGroMoreSDK'
-    s.version          = '3.8.0.2'
+    s.version          = '3.9.0.2'
     s.summary          = 'SFGroMoreSDK'
 
     s.description      = <<-DESC
