@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SFGroMoreSDK'
-    s.version          = '3.9.0.2'
+    s.version          = '4.0.0.1'
     s.summary          = 'SFGroMoreSDK'
 
     s.description      = <<-DESC
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64' }
 
-    s.dependency 'Ads-CN', '~>4.9.0.7'
+    s.dependency 'Ads-CN', '~>5.1.0.2'
   
 end
