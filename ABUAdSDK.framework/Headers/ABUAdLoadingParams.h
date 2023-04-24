@@ -14,6 +14,9 @@ extern NSString *const ABUAdLoadingParamMediationRitID;
 /// 场景ID，NSString
 extern NSString *const ABUAdLoadingParamScenarioID;
 
+/// 价值分组规则ID，NSString
+extern NSString *const ABUAdLoadingParamUValueRuleId;
+
 /// ADN广告位ID，NSString
 extern NSString *const ABUAdLoadingParamMediaRitID;
 
