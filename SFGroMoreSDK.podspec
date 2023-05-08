@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SFGroMoreSDK'
-    s.version          = '4.0.0.1'
+    s.version          = '4.1.0.4'
     s.summary          = 'SFGroMoreSDK'
 
     s.description      = <<-DESC
@@ -19,12 +19,10 @@ Pod::Spec.new do |s|
     s.frameworks = 'AssetsLibrary', 'MapKit', 'JavaScriptCore', 'StoreKit', 'MobileCoreServices', 'WebKit', 'MediaPlayer', 'CoreMedia', 'AVFoundation', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'AdSupport', 'CoreMotion', 'Security', 'QuartzCore', 'CoreGraphics', 'SafariServices', 'UIKit', 'Foundation', 'AppTrackingTransparency', 'DeviceCheck'
     s.libraries = 'c++', 'c++abi', 'resolv', 'xml2', 'bz2', 'z', 'iconv', 'sqlite3'
 
-    s.vendored_frameworks = 'ABUAdCsjAdapter.framework'
-    s.vendored_frameworks = 'ABUAdSDK.framework'
+    s.vendored_frameworks = 'ABUAdSDK.framework', 'ABUAdCsjAdapter.framework'
 
     s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64' }
 
-    s.dependency 'Ads-CN', '~>5.1.0.2'
-  
+    s.dependency 'Ads-CN'
 end
