@@ -37,7 +37,7 @@ typedef NS_ENUM(NSInteger, ABUAdSDKThemeStatus) {
 @property (nonatomic, assign) ABUAdSDKThemeStatus themeStatus;
 
 /// 设置扩展设备信息，如不了解该功能，请勿使用。 如@"[{\"device_id\":\"62271333038\"}]"
-@property (nonatomic, copy) NSDictionary *extraDeviceMap;
+@property (nonatomic, copy, nullable) NSDictionary *extraDeviceMap;
 
 /// 旧版本兼容，是否开启调试模式。真实情况由adapter实现，官方adapter中Unity可用
 @property (nonatomic, assign) BOOL testMode;

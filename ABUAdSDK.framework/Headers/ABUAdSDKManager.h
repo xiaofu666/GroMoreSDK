@@ -39,7 +39,7 @@ __attribute__((objc_subclassing_restricted))
 + (ABUAdSDKThemeStatus)themeStatus;
 
 /// 获取各类补充信息
-+ (NSDictionary *)getGMSDKExtraInfo;
++ (nullable NSDictionary *)getGMSDKExtraInfo;
 
 /// 获取配置是否已经加载
 + (BOOL)configDidLoad;
